@@ -1,11 +1,15 @@
 # Spring Security - How to use Verification with phone
 # How it will look like?
-    * Open http://localhost:8080
-    ![Localhost](res/localhost.png)
-    * Click 'Login'
-    * Login to your Okta account
-    * Send Push notification to the phone
-    * You have access for Secured Page!
+* Open http://localhost:8080
+![Localhost](res/localhost.png?raw=true)
+* Click 'Login'
+* Login to your Okta account
+![Login to Okta](res/login to Okta.png?raw=true)
+* Send Push notification to the phone
+![Send Push](res/Push notification.png?raw=true)
+* Accept push request it on the phone
+* You have access for Secured Page!
+![Got access](res/secured page.png?raw=true)
 
 
 # Deep diving
@@ -30,9 +34,11 @@ I have to perform some configuration on the https://developer.okta.com project.
         6. Assign yourself to the new created App. Applications -> Assigments -> Assign
         
 ### `Second Part` Verification with phone named Okta Verify
-       1. Enable Okta Verify. Go to Applications -> Sign On -> Sign On Policy -> Add Rule
-       2. Actions -> ACCESS -> Enable 'Prompt for factor · Multifactor Settings'
-       3. Go to Multifactor Settings link. Enable Okta Verify.
+1. Go to Applications -> Sign On -> Sign On Policy -> Add Rule
+2. Actions -> ACCESS -> Enable 'Prompt for factor · Multifactor Settings'
+#![Multifactor](res/Create new rule.png?raw=true)
+3. Go to Multifactor Settings link. Enable Okta Verify.
+#![Multifactor](res/Enable Okta Verify.png?raw=true)
        
 Download Okta Verify app to the phone.
 Android: https://play.google.com/store/apps/details?id=com.okta.android.auth
