@@ -4,7 +4,7 @@
 ![Localhost](res/localhost.png?raw=true)
 * Click 'Login'
 * Login to your Okta account
-![Login to Okta](res/login to Okta.png?raw=true)
+![Login to Okta](res/login_to_Okta.png?raw=true)
 * Send Push notification to the phone
 ![Send Push](res/Push notification.png?raw=true)
 * Accept push request it on the phone
