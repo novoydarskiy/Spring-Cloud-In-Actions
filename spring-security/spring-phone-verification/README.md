@@ -6,10 +6,10 @@
 * Login to your Okta account
 ![Login to Okta](res/login_to_Okta.png?raw=true)
 * Send Push notification to the phone
-![Send Push](res/Push notification.png?raw=true)
+![Send Push](res/push_notification.png?raw=true)
 * Accept push request it on the phone
 * You have access for Secured Page!
-![Got access](res/secured page.png?raw=true)
+![Got access](res/secured_page.png?raw=true)
 
 
 # Deep diving
@@ -36,9 +36,9 @@ I have to perform some configuration on the https://developer.okta.com project.
 ### `Second Part` Verification with phone named Okta Verify
 1. Go to Applications -> Sign On -> Sign On Policy -> Add Rule
 2. Actions -> ACCESS -> Enable 'Prompt for factor · Multifactor Settings'
-#![Multifactor](res/Create new rule.png?raw=true)
+#![Multifactor](res/create_new_rule.png?raw=true)
 3. Go to Multifactor Settings link. Enable Okta Verify.
-#![Multifactor](res/Enable Okta Verify.png?raw=true)
+#![Multifactor](res/enable_okta_verify.png?raw=true)
        
 Download Okta Verify app to the phone.
 Android: https://play.google.com/store/apps/details?id=com.okta.android.auth
