@@ -1,6 +1,7 @@
 # Spring Security - How to use Verification with phone
 # How it will look like?
     * Open http://localhost:8080
+    [Localhost](res/localhost.png)
     * Click 'Login'
     * Login to your Okta account
     * Send Push notification to the phone
